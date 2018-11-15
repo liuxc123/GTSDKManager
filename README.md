@@ -7,7 +7,7 @@
 采用Pod集成：在项目工程的Podfile文件中加载GTSDKManager库：
 
 ```
-pod 'GTSDKManager' :git => 'https://github.com/liuxc123/GTSDKManager.git'
+pod 'GTSDKManager', :git => 'https://github.com/liuxc123/GTSDKManager.git'
 ```
 
 ## 如何使用GTSDKManager
