@@ -137,7 +137,6 @@
     },
     {
       "name": "DingTalkPlatform",
-      "public_header_files": "GTSDKManager/DingTalkPlatform/DingTalkSDK/*.h",
       "source_files": "GTSDKManager/DingTalkPlatform/**/*.{h,m,mm}",
       "vendored_frameworks": "GTSDKManager/DingTalkPlatform/DingTalkSDK/DTShareKit.framework",
       "dependencies": {
