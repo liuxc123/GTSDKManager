@@ -42,8 +42,14 @@
                                            GTSDKConfigAppPlatformTypeKey : @(GTSDKPlatformAliPay)
                                            },
                                        @{ GTSDKConfigAppIdKey : @"XXX",
-                                          GTSDKConfigAppPlatformTypeKey : @(GTSDKPlatformWeibo) },
+                                          GTSDKConfigAppPlatformTypeKey : @(GTSDKPlatformWeibo)
+                                          },
+                                       @{ GTSDKConfigAppIdKey : @"XXX",
+                                          GTSDKConfigAppPlatformTypeKey : @(GTSDKPlatformDingTalk)
+                                          },
                                        ];
+
+
 
     [GTSDKManager registerWithPlatformConfigList:regPlatformConfigList];
 

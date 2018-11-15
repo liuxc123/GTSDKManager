@@ -26,5 +26,17 @@
 		<key>serviceProvider</key>
 		<string>GTSDKWeiboServiceImpl</string>
 	</dict>
+	<dict>
+		<key>platformType</key>
+		<integer>5</integer>
+		<key>serviceProvider</key>
+		<string>GTSDKDingTalkServiceImpl</string>
+	</dict>
+	<dict>
+		<key>platformType</key>
+		<integer>5</integer>
+		<key>serviceProvider</key>
+		<string>GTSDKYXServiceImpl</string>
+	</dict>
 </array>
 </plist>

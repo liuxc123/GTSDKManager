@@ -13,6 +13,7 @@ typedef NS_ENUM(NSUInteger, GTSDKPlatformType) {
     GTSDKPlatformWeChat,  //微信
     GTSDKPlatformAliPay,  //支付宝
     GTSDKPlatformWeibo,   //新浪微博
+    GTSDKPlatformDingTalk,//钉钉
     GTSDKPlatformYiXin,   //易信
 };
 
