@@ -7,12 +7,46 @@
 //
 
 #import "GTAppDelegate.h"
+#import "GTSDKManager.h"
+#import "GTSDKRegisterService.h"
+#import "GTSDKPayService.h"
 
 @implementation GTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+
+    /*!
+     *  @brief  批量注册第三方SDK
+     */
+    NSArray *regPlatformConfigList = @[
+                                       @{
+                                           GTSDKConfigAppIdKey : @"XXX",
+                                           GTSDKConfigAppSecretKey : @"XXX",
+                                           GTSDKConfigAppDescriptionKey :
+                                               [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"],
+                                           GTSDKConfigAppPlatformTypeKey : @(GTSDKPlatformWeChat)
+                                           },
+                                       @{
+                                           GTSDKConfigAppIdKey : @"XXX",
+                                           GTSDKConfigAppSecretKey : @"XXX",
+                                           GTSDKConfigAppPlatformTypeKey : @(GTSDKPlatformQQ)
+                                           },
+                                       @{
+                                           GTSDKConfigAppIdKey : @"XXX",
+                                           GTSDKConfigAppSecretKey : @"XXX",
+                                           GTSDKConfigAppPlatformTypeKey : @(GTSDKPlatformYiXin)
+                                           },
+                                       @{
+                                           GTSDKConfigAppSchemeKey : @"alipay1102",
+                                           GTSDKConfigAppPlatformTypeKey : @(GTSDKPlatformAliPay)
+                                           },
+                                       @{ GTSDKConfigAppIdKey : @"XXX",
+                                          GTSDKConfigAppPlatformTypeKey : @(GTSDKPlatformWeibo) },
+                                       ];
+
+    [GTSDKManager registerWithPlatformConfigList:regPlatformConfigList];
+
     return YES;
 }
 
@@ -41,6 +75,15 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
+{
+    return [GTSDKManager handleOpenURL:url];
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    return [GTSDKManager handleOpenURL:url];
 }
 
 @end

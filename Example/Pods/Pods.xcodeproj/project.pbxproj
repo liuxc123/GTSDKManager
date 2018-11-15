@@ -1,0 +1,1556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04C0CE7FD4365602459FAF07305EA983 /* UIImage+GTSDKShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C794D588FE141DE28DB70DEC736A0B /* UIImage+GTSDKShare.m */; };
+		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
+		0BA1AB22C052887DE60295A92C1B0740 /* sdkdef.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B33E5137324FEF5125B2F081D7A6434 /* sdkdef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10B48BD276C7B0F37C58A9CFAEE6A375 /* TencentMessageObject.h in Headers */ = {isa = PBXBuildFile; fileRef = E122DD4876ED920318FC3996104E2FBF /* TencentMessageObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A14BA32765ABD7F9F404EA706169A3B /* GTSDKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 941A06FD37693B0B24C7BB9C33DBBA0A /* GTSDKManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
+		1AD85A9C2A342697B0857A88ED379C59 /* WeiboUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 08CA3E97E661246AF01E0963D8F361CB /* WeiboUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DB2E15E467ABFF39D25F6C79E2E012D /* WBSDKRelationshipButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7934D7F0D568BE7860C211D2E26B38B9 /* WBSDKRelationshipButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24E2C9F78974ACB39ACF54E2F178A844 /* GTSDKAliPayServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1558C0DD8FF81C421772E79381BCAC19 /* GTSDKAliPayServiceImpl.m */; };
+		252EAB4EB2872E80FDC578C3F0FEE4AA /* TencentOAuthObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 03686D8C20B9E02D0426E0A76333F6EC /* TencentOAuthObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2799F5305C3DB118E4CD3C5AA045A9C2 /* DTOpenAPIObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 512B20AAFA17710AE9D2B3CA21381861 /* DTOpenAPIObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A0E2BDA7CDE054B7503C3E7B1A033F3 /* DTOpenKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CB57CE7B3363409CA3C4AA1FFCBDF15C /* DTOpenKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C00A49C9ECD735F5BB9D0EB6FB035C5 /* NSDictionary+GTSDKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 901272300B0114D2B5589653BCC355C7 /* NSDictionary+GTSDKAdditions.m */; };
+		2C5D6FD3657638FC33E31C4EECA7A80E /* WBSDKCommentButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D5792F45F5702026F7BD6610CBA683B1 /* WBSDKCommentButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
+		37012C4E2AB52191218F099F7CF43179 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C2C02408412503745518BAAA4C78EE /* QuartzCore.framework */; };
+		38511FA5AC67699B917C66BA55ECEEA5 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27ECC7448E1D630CEE7F0BEC8B9DE8C4 /* CoreText.framework */; };
+		39CB1EA278A2E885EA24137735F2B275 /* WBHttpRequest+WeiboShare.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A6D660A2AF7647EDE721971E3C8B1E4 /* WBHttpRequest+WeiboShare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ACE54FD524D48BE93B46CCDF14E2100 /* WBHttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 44D2EC6A50DB518A10E4391C6D5B43E7 /* WBHttpRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E4CAD960725CBDEEB060B3E7312F3EB /* WBHttpRequest+WeiboToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 9776B15003C03D4E5F9FD99DAB9A95FB /* WBHttpRequest+WeiboToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FD6D326F900BB7E7272F544250C50D5 /* NSString+GTSDKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F8278095F195E3CF6BCB3C548EA90620 /* NSString+GTSDKAdditions.m */; };
+		40EBA3A64947BEA56558EF5110EF9DF5 /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A87AD10C9290D6BB583D6D265861F967 /* WeiboSDK.bundle */; };
+		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4571F1459EA137596B018401FF27D001 /* GTSDKAliPayServiceImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = C85B03F575CF5AC142FD74998E33D4DD /* GTSDKAliPayServiceImpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B28EAB24D58875F051E5FB9707E01AF /* YXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 638F3AB111D25F440074A00A81F40DE1 /* YXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C41D6351334744322A27F18E81D339B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A536C88B613266C38012730B599FE2AA /* Foundation.framework */; };
+		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */; };
+		5563155485E5C6A0FBA3E17C21308521 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E5E6513344277D41B66CAB73AECFD0 /* Security.framework */; };
+		593EA47417B52D6465E58BA5CD542ED5 /* Pods-GTSDKManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7354F4844C61F703DACC7E55D98AB865 /* Pods-GTSDKManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CF46637A9C2458F5E3CDCA63B7CAAF0 /* GTSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A2A390B656C3D1F67D81E150D82B25 /* GTSDKManager.m */; };
+		63FA63A72BD43D68564F15E222E962CD /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FF1012175B3ADAC0A3FE1BA8D84B07 /* CoreTelephony.framework */; };
+		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
+		6A78631148A37442058B683BB2AAB5A4 /* TencentOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = FCDEA6F3D80DBFF3D31A49E0AB9019B2 /* TencentOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F28667F6ECD885D11E97BC7847EB8C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A536C88B613266C38012730B599FE2AA /* Foundation.framework */; };
+		701680A4B0BEC7F795D4E77A4BD2E12D /* NSString+GTSDKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 97F57A8BF9E5D75B6D027E4E7C3CE7C9 /* NSString+GTSDKAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		70CCD7BC35823BEA2042FD2BAD8985E0 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4665E9885CB6641BA287CCE1E4780C /* ImageIO.framework */; };
+		74CFDA8471E3DF6828A7A10763EF0954 /* GTSDKDingTalkServiceImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 1930A10B436D0EBFFA8E4E8FED35F7B0 /* GTSDKDingTalkServiceImpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7536F585626E3D661077AA19729F6F5F /* NSDictionary+GTSDKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EB9F928832D2AF3EE8FE47CF1CE8A46 /* NSDictionary+GTSDKAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
+		7A94C3CB0E769CC88B1AA64A5D89EFCA /* AlipaySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CF6A4EA88E3FE2C1AE740DF0BF3DD8D /* AlipaySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D770EF339FD9471FEECD9EA82E5C8D6 /* GTSDKYXServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C46B41BFA765B4F99A97600A5DEA21 /* GTSDKYXServiceImpl.m */; };
+		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6F9741EBB4CAC3FC7B75B08F7E2B0D /* XCTest.framework */; };
+		810609E95C0A6295C25474B7C57C638A /* Pods-GTSDKManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B14C5F6677A0F606D922BBDD50197AF3 /* Pods-GTSDKManager_Tests-dummy.m */; };
+		82E51DA987790E8670489EAE62A9FEF0 /* GTSDKWXServiceImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 38BA90A9F711BA7D2C6256E305B48601 /* GTSDKWXServiceImpl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F65C89E9EB2DD61B8CA6C1C82177986F /* UIKit.framework */; };
+		8AA77BB76C41BC1B58DA3D90D1E8748B /* SDKServiceConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12319EDA33E38B2EA7CD2E9E568D8AB8 /* SDKServiceConfig.plist */; };
+		8F343E802369C8188DDCE6221BDB0F30 /* GTSDKWXServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = BC102EF3E940FFC90910502F83E370DA /* GTSDKWXServiceImpl.m */; };
+		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A536C88B613266C38012730B599FE2AA /* Foundation.framework */; };
+		93C02BDA5ED10E7F97A9D42EA942F251 /* GTSDKShareService.h in Headers */ = {isa = PBXBuildFile; fileRef = 206822F9109D209D340F57A27FE91D23 /* GTSDKShareService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94B56C1BFE56FBDD01FFA5547D47C187 /* GTSDKQQServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 147DBE51C64C3B63640D2D71FE1CC5A3 /* GTSDKQQServiceImpl.m */; };
+		95569CE31D68D2783CA1A9EDEFFFFCF7 /* WBHttpRequest+WeiboGame.h in Headers */ = {isa = PBXBuildFile; fileRef = 95194622E85D92BBA5BD78D07FEA51AA /* WBHttpRequest+WeiboGame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		984F1CC496B7A5FE54FDB9A93428C982 /* GTSDKPayService.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E54EE10924F5270B2E619CD5B26A3C5 /* GTSDKPayService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A337A6FE51D29D13EC603FADCFCB4C7C /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = A6673486161DEFF453893B4805F12CDA /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4A55CF85C58B60726C29FF53E260A37 /* GTSDKYXServiceImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BA455B92895DA50FF5D5C4E53B64CAB /* GTSDKYXServiceImpl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
+		A5DCC40ED7DCFCAF8A2933FBEF822E3B /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = E8CC0491A2B4ACFB5ECF57F2C2FCCE54 /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACB2F5CE9645430A21E3CB159F059A5E /* GTSDKManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A979135B1C77BB6B4F55E82C8335D9EC /* GTSDKManager-dummy.m */; };
+		ACF1D88F799D09D958FA1A948DAC56EA /* WeiyunAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 8308B0CDF0BA1FFEC8247D164233E2DE /* WeiyunAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD503618923D78848A7FDDAB5421CA6D /* GTSDKWeiboServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = B51F5C5682C5C6B488F93DE2BF0727E1 /* GTSDKWeiboServiceImpl.m */; };
+		B134F586CC99A33181F937CFC29143DA /* WBHttpRequest+WeiboUser.h in Headers */ = {isa = PBXBuildFile; fileRef = C27F7504D091CBC99BAEBF830A08A0D4 /* WBHttpRequest+WeiboUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B175A67AE8CA1B3E0B11748B3F36EC3D /* Pods-GTSDKManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7059EA1BFC65A496D22E791858F267 /* Pods-GTSDKManager_Example-dummy.m */; };
+		B21BF23C5D3B5CE3D6A2E32D7572F4D8 /* UIImage+GTSDKShare.h in Headers */ = {isa = PBXBuildFile; fileRef = C359A0817D92D5BE566C5184407E7D03 /* UIImage+GTSDKShare.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C2C02408412503745518BAAA4C78EE /* QuartzCore.framework */; };
+		B7118CA14BBDD9EC220995EEFD98E0CA /* Pods-GTSDKManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A346429B8EC39831F82497C1D16FE0F /* Pods-GTSDKManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8616545E6A23C7256FBD4A844BE88D3 /* QQApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 2436F52B15CB71054F4897BEFF9AB95B /* QQApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B98A6284837DF2757037B07881BA1D87 /* GTSDKRegisterService.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A768A5B38DFED19B4CBE69AB747E964 /* GTSDKRegisterService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BCB6093C69BCA7F37180DE8DB9C6BBB3 /* GTSDKWeiboServiceImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 891727B141FBFEFB66F646126ED930BB /* GTSDKWeiboServiceImpl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
+		BE504FBAAB1FC5118C0DBB2756E29425 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A536C88B613266C38012730B599FE2AA /* Foundation.framework */; };
+		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0286D6F080E7959073596BE78BC3E63 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C2FC9443A400630DDD9B069B5775FB1C /* TencentOpenApi_IOS_Bundle.bundle */; };
+		C0C6BA54FDE71359FFA57828888374DA /* GTSDKManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D5C15C530AA765C89B0D6167A78CC5 /* GTSDKManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1F8684ACD9181B2350A2BAE1A4CBF75 /* WeiboSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A301290CF60853425674EA1A4AC12B75 /* WeiboSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C228370A76E936DA35521B0322A49A28 /* APayAuthInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = EBE066683D4DAA5257FFCEF98EEB0010 /* APayAuthInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5AD5B833E415D635C2FA9DBA0DD52F6 /* GTSDKQQServiceImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 2972262B382B7C1A45BEDAD320A7A61C /* GTSDKQQServiceImpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CB59B97FA2B7CAE35F120E54CAE21457 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D97ABF8510F99ED150C7EDDA51CC582C /* AlipaySDK.bundle */; };
+		CD36B2A263445BE6A77A62FB9C718289 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB16DBC6879F1BF81244C9A8FD786F4A /* SystemConfiguration.framework */; };
+		CF557ECEDAAB6D9F42951915DC47979A /* GTSDKAuthService.h in Headers */ = {isa = PBXBuildFile; fileRef = 35315C59B3E23DCACD00886B149E9E16 /* GTSDKAuthService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D507906BD7E0DC88431B41DAC5B6BD45 /* QQApiInterfaceObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A768CE1289E620E1BC79062094158BC /* QQApiInterfaceObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
+		DD1EEA200EB35540350EB64DA2B33659 /* QQApiInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = AC9E3CA807C3D99251A766A4AE45208E /* QQApiInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0CD81D8B94A0D9D282DC5F46EF5EA8D /* WBSDKBasicButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F79735F4FE5DB40134737ECBB45193F0 /* WBSDKBasicButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E166B85A576EF1CEF9D2B0F534C0F046 /* YXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = A7158B401FC65E021BB1B8DCD5FF4B24 /* YXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E51653C91796E56A14EA5DF40B688735 /* GTSDKDingTalkServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BB8A74664439152DD823F73DC01C06 /* GTSDKDingTalkServiceImpl.m */; };
+		F4BEF8F01FE6B2B958627D3647446387 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BBE368F9E16ABBDEF11F38BB95901A /* MobileCoreServices.framework */; };
+		F6E2FD6280AD436CB7CF69F0B02BDC72 /* WeiBoAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF84609B7319C3DFFED4B9AF42A7722 /* WeiBoAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F98C77D3A5C74774A6030DBA5670AB71 /* DTOpenAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = EF0F7111DFE9DFACE1F5E65D32AC5E2F /* DTOpenAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF8C9ACB67F65E6FEDFF6CDA68C35E0B /* TencentApiInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = DD74661FE1A788C265FDAC3AFD142F3C /* TencentApiInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15AB3B4839C915E5732F672C367105D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71588E6A96F6EC73A0313A58E5829BAF;
+			remoteInfo = "Pods-GTSDKManager_Example";
+		};
+		DE128149002750B1C5FC72B45FA23068 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34CD2E3428AB802BACA62286FF5074B1;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		EC16901B7B4FEF74FD6ED77236D7EEF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EF8B13D913CB87ACCE1E1D0BDF8000E;
+			remoteInfo = GTSDKManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03686D8C20B9E02D0426E0A76333F6EC /* TencentOAuthObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentOAuthObject.h; sourceTree = "<group>"; };
+		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		06069614D50AB28E8B05877E87BB4E1E /* DTShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DTShareKit.framework; path = GTSDKManager/DingTalkPlatform/DingTalkSDK/DTShareKit.framework; sourceTree = "<group>"; };
+		08CA3E97E661246AF01E0963D8F361CB /* WeiboUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WeiboUser.h; sourceTree = "<group>"; };
+		0A768CE1289E620E1BC79062094158BC /* QQApiInterfaceObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QQApiInterfaceObject.h; sourceTree = "<group>"; };
+		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		0BA455B92895DA50FF5D5C4E53B64CAB /* GTSDKYXServiceImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTSDKYXServiceImpl.h; path = GTSDKManager/YixinPlatform/GTSDKYXServiceImpl.h; sourceTree = "<group>"; };
+		0E128C8FDC26E47583CC8C318AD94C42 /* Pods-GTSDKManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GTSDKManager_Tests.modulemap"; sourceTree = "<group>"; };
+		12319EDA33E38B2EA7CD2E9E568D8AB8 /* SDKServiceConfig.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = SDKServiceConfig.plist; path = GTSDKManager/CoreService/SDKServiceConfig.plist; sourceTree = "<group>"; };
+		12F2E47A1DA8CB7E65C6A31DA5106A78 /* Pods-GTSDKManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTSDKManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		13B0F742CBB9533D8D0699401E554F8A /* GTSDKManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTSDKManager.xcconfig; sourceTree = "<group>"; };
+		147DBE51C64C3B63640D2D71FE1CC5A3 /* GTSDKQQServiceImpl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTSDKQQServiceImpl.m; path = GTSDKManager/QQPlatform/GTSDKQQServiceImpl.m; sourceTree = "<group>"; };
+		1558C0DD8FF81C421772E79381BCAC19 /* GTSDKAliPayServiceImpl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTSDKAliPayServiceImpl.m; path = GTSDKManager/AlipayPlatform/GTSDKAliPayServiceImpl.m; sourceTree = "<group>"; };
+		18BBE368F9E16ABBDEF11F38BB95901A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		1930A10B436D0EBFFA8E4E8FED35F7B0 /* GTSDKDingTalkServiceImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTSDKDingTalkServiceImpl.h; path = GTSDKManager/DingTalkPlatform/GTSDKDingTalkServiceImpl.h; sourceTree = "<group>"; };
+		1A1F700093CD88F1DC6B8ACD0BD4C067 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = GTSDKManager/WechatPlatform/WeChatSDK/libWeChatSDK.a; sourceTree = "<group>"; };
+		1CF6A4EA88E3FE2C1AE740DF0BF3DD8D /* AlipaySDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlipaySDK.h; sourceTree = "<group>"; };
+		1F6F9741EBB4CAC3FC7B75B08F7E2B0D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		206822F9109D209D340F57A27FE91D23 /* GTSDKShareService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTSDKShareService.h; sourceTree = "<group>"; };
+		2436F52B15CB71054F4897BEFF9AB95B /* QQApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QQApi.h; sourceTree = "<group>"; };
+		27ECC7448E1D630CEE7F0BEC8B9DE8C4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		28EBDD5F6FD462A47D554FA6B0501252 /* GTSDKManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTSDKManager.framework; path = GTSDKManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2972262B382B7C1A45BEDAD320A7A61C /* GTSDKQQServiceImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTSDKQQServiceImpl.h; path = GTSDKManager/QQPlatform/GTSDKQQServiceImpl.h; sourceTree = "<group>"; };
+		29C794D588FE141DE28DB70DEC736A0B /* UIImage+GTSDKShare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GTSDKShare.m"; sourceTree = "<group>"; };
+		2A768A5B38DFED19B4CBE69AB747E964 /* GTSDKRegisterService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTSDKRegisterService.h; sourceTree = "<group>"; };
+		2C9950E14670E2B45FAFCB3AEA6DE1A0 /* GTSDKManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GTSDKManager.modulemap; sourceTree = "<group>"; };
+		2D7059EA1BFC65A496D22E791858F267 /* Pods-GTSDKManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTSDKManager_Example-dummy.m"; sourceTree = "<group>"; };
+		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		31BB8A74664439152DD823F73DC01C06 /* GTSDKDingTalkServiceImpl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTSDKDingTalkServiceImpl.m; path = GTSDKManager/DingTalkPlatform/GTSDKDingTalkServiceImpl.m; sourceTree = "<group>"; };
+		35315C59B3E23DCACD00886B149E9E16 /* GTSDKAuthService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTSDKAuthService.h; sourceTree = "<group>"; };
+		35A2A390B656C3D1F67D81E150D82B25 /* GTSDKManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTSDKManager.m; path = GTSDKManager/CoreService/GTSDKManager.m; sourceTree = "<group>"; };
+		387114D2BB8809F7A11D190042D0223A /* Pods-GTSDKManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTSDKManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		38BA90A9F711BA7D2C6256E305B48601 /* GTSDKWXServiceImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTSDKWXServiceImpl.h; path = GTSDKManager/WechatPlatform/GTSDKWXServiceImpl.h; sourceTree = "<group>"; };
+		393A44FDEEAD4DE5159DD183CD9397DE /* Pods-GTSDKManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTSDKManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		3D958EF0E66C73996F5019E5FD99DD71 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		44D2EC6A50DB518A10E4391C6D5B43E7 /* WBHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WBHttpRequest.h; sourceTree = "<group>"; };
+		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		4E54EE10924F5270B2E619CD5B26A3C5 /* GTSDKPayService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTSDKPayService.h; sourceTree = "<group>"; };
+		4F6E3401F581CF4AFCC65305A4822CAB /* Pods-GTSDKManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTSDKManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		502061B40CBB3D825885ACF0CEAD3B6B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		512B20AAFA17710AE9D2B3CA21381861 /* DTOpenAPIObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTOpenAPIObject.h; sourceTree = "<group>"; };
+		5759E052055E3F624A3E35DB96C0CD12 /* GTSDKManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GTSDKManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		5B33E5137324FEF5125B2F081D7A6434 /* sdkdef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = sdkdef.h; sourceTree = "<group>"; };
+		624901B9EDF3F5A1596D146EB90EF62F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		62C2C02408412503745518BAAA4C78EE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		638F3AB111D25F440074A00A81F40DE1 /* YXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YXApiObject.h; sourceTree = "<group>"; };
+		6430046F61225264EC259CE020972E5A /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboSDK.a; path = GTSDKManager/WeiboPlatform/libWeiboSDK/libWeiboSDK.a; sourceTree = "<group>"; };
+		679EFED97BD698C008462505115AC42C /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = GTSDKManager/QQPlatform/GTQQSDK/TencentOpenAPI.framework; sourceTree = "<group>"; };
+		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A346429B8EC39831F82497C1D16FE0F /* Pods-GTSDKManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTSDKManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7354F4844C61F703DACC7E55D98AB865 /* Pods-GTSDKManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTSDKManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		78D5C15C530AA765C89B0D6167A78CC5 /* GTSDKManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTSDKManager-umbrella.h"; sourceTree = "<group>"; };
+		7934D7F0D568BE7860C211D2E26B38B9 /* WBSDKRelationshipButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WBSDKRelationshipButton.h; sourceTree = "<group>"; };
+		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		80FFF0EC0735BFC7FCF2A97CD717FBCE /* Pods_GTSDKManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GTSDKManager_Tests.framework; path = "Pods-GTSDKManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8308B0CDF0BA1FFEC8247D164233E2DE /* WeiyunAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WeiyunAPI.h; sourceTree = "<group>"; };
+		83F73BA2C3BE65136DAB18C6CF33A5B7 /* Pods-GTSDKManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTSDKManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		847B685AC3E5A699382A1F5584D33570 /* Pods_GTSDKManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GTSDKManager_Example.framework; path = "Pods-GTSDKManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		891727B141FBFEFB66F646126ED930BB /* GTSDKWeiboServiceImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTSDKWeiboServiceImpl.h; path = GTSDKManager/WeiboPlatform/GTSDKWeiboServiceImpl.h; sourceTree = "<group>"; };
+		8A6D660A2AF7647EDE721971E3C8B1E4 /* WBHttpRequest+WeiboShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboShare.h"; sourceTree = "<group>"; };
+		8AF84609B7319C3DFFED4B9AF42A7722 /* WeiBoAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WeiBoAPI.h; sourceTree = "<group>"; };
+		8BA7B7CAF3AF0C38E60EA52BEBF0528E /* Pods-GTSDKManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTSDKManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		901272300B0114D2B5589653BCC355C7 /* NSDictionary+GTSDKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+GTSDKAdditions.m"; sourceTree = "<group>"; };
+		927159BAB2A9EEFE7D58FD6A5AC7A8B1 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = GTSDKManager/AlipayPlatform/AlipaySDK/AlipaySDK.framework; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		941A06FD37693B0B24C7BB9C33DBBA0A /* GTSDKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTSDKManager.h; path = GTSDKManager/CoreService/GTSDKManager.h; sourceTree = "<group>"; };
+		95194622E85D92BBA5BD78D07FEA51AA /* WBHttpRequest+WeiboGame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboGame.h"; sourceTree = "<group>"; };
+		9776B15003C03D4E5F9FD99DAB9A95FB /* WBHttpRequest+WeiboToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboToken.h"; sourceTree = "<group>"; };
+		97F57A8BF9E5D75B6D027E4E7C3CE7C9 /* NSString+GTSDKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+GTSDKAdditions.h"; sourceTree = "<group>"; };
+		9B93248C76C809C748806970634764FF /* Pods-GTSDKManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTSDKManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9CF3E572E0B3E15026817D26A3063C2D /* Pods-GTSDKManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTSDKManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9EB9F928832D2AF3EE8FE47CF1CE8A46 /* NSDictionary+GTSDKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+GTSDKAdditions.h"; sourceTree = "<group>"; };
+		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		A301290CF60853425674EA1A4AC12B75 /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WeiboSDK.h; sourceTree = "<group>"; };
+		A4FF1012175B3ADAC0A3FE1BA8D84B07 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		A536C88B613266C38012730B599FE2AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A6673486161DEFF453893B4805F12CDA /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		A7158B401FC65E021BB1B8DCD5FF4B24 /* YXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YXApi.h; sourceTree = "<group>"; };
+		A87AD10C9290D6BB583D6D265861F967 /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = GTSDKManager/WeiboPlatform/libWeiboSDK/WeiboSDK.bundle; sourceTree = "<group>"; };
+		A979135B1C77BB6B4F55E82C8335D9EC /* GTSDKManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTSDKManager-dummy.m"; sourceTree = "<group>"; };
+		AC9E3CA807C3D99251A766A4AE45208E /* QQApiInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QQApiInterface.h; sourceTree = "<group>"; };
+		B14C5F6677A0F606D922BBDD50197AF3 /* Pods-GTSDKManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTSDKManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		B290FE658799310EEA42BFE55F2867E6 /* libYixinSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libYixinSDK.a; path = GTSDKManager/YixinPlatform/YiXinSDK/libYixinSDK.a; sourceTree = "<group>"; };
+		B51F5C5682C5C6B488F93DE2BF0727E1 /* GTSDKWeiboServiceImpl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTSDKWeiboServiceImpl.m; path = GTSDKManager/WeiboPlatform/GTSDKWeiboServiceImpl.m; sourceTree = "<group>"; };
+		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		BC102EF3E940FFC90910502F83E370DA /* GTSDKWXServiceImpl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTSDKWXServiceImpl.m; path = GTSDKManager/WechatPlatform/GTSDKWXServiceImpl.m; sourceTree = "<group>"; };
+		BDAAB65BECD2D8ED570A2ED3DFB75DB3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BF0FCDEAC3DD2AF2DDD60608D25E2FE5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF4665E9885CB6641BA287CCE1E4780C /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		C27F7504D091CBC99BAEBF830A08A0D4 /* WBHttpRequest+WeiboUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboUser.h"; sourceTree = "<group>"; };
+		C2FC9443A400630DDD9B069B5775FB1C /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TencentOpenApi_IOS_Bundle.bundle; path = GTSDKManager/QQPlatform/GTQQSDK/TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		C359A0817D92D5BE566C5184407E7D03 /* UIImage+GTSDKShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+GTSDKShare.h"; sourceTree = "<group>"; };
+		C85B03F575CF5AC142FD74998E33D4DD /* GTSDKAliPayServiceImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTSDKAliPayServiceImpl.h; path = GTSDKManager/AlipayPlatform/GTSDKAliPayServiceImpl.h; sourceTree = "<group>"; };
+		CA3E0D3E536B6D43E1D1446C9B660906 /* Pods-GTSDKManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTSDKManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB57CE7B3363409CA3C4AA1FFCBDF15C /* DTOpenKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTOpenKit.h; sourceTree = "<group>"; };
+		CFC4AC0A50787DC5E9B364E56C4BCE6F /* Pods-GTSDKManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTSDKManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5792F45F5702026F7BD6610CBA683B1 /* WBSDKCommentButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WBSDKCommentButton.h; sourceTree = "<group>"; };
+		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		D97ABF8510F99ED150C7EDDA51CC582C /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AlipaySDK.bundle; path = GTSDKManager/AlipayPlatform/AlipaySDK/AlipaySDK.bundle; sourceTree = "<group>"; };
+		DB16DBC6879F1BF81244C9A8FD786F4A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		DD74661FE1A788C265FDAC3AFD142F3C /* TencentApiInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentApiInterface.h; sourceTree = "<group>"; };
+		E08C0203CC0D6685B8DB20217A8CEFED /* Pods-GTSDKManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GTSDKManager_Example.modulemap"; sourceTree = "<group>"; };
+		E122DD4876ED920318FC3996104E2FBF /* TencentMessageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentMessageObject.h; sourceTree = "<group>"; };
+		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		E6C709A63535352A521D09844475DB2A /* Pods-GTSDKManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTSDKManager_Example-resources.sh"; sourceTree = "<group>"; };
+		E6E5E6513344277D41B66CAB73AECFD0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		E8CC0491A2B4ACFB5ECF57F2C2FCCE54 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		E92D40F214782C0EF38E2B500ED98911 /* Pods-GTSDKManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTSDKManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EBE066683D4DAA5257FFCEF98EEB0010 /* APayAuthInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = APayAuthInfo.h; sourceTree = "<group>"; };
+		EDC1C6F613DF0B76596CF0EE6582C0E0 /* GTSDKManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTSDKManager-prefix.pch"; sourceTree = "<group>"; };
+		EF0F7111DFE9DFACE1F5E65D32AC5E2F /* DTOpenAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTOpenAPI.h; sourceTree = "<group>"; };
+		EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		F2C46B41BFA765B4F99A97600A5DEA21 /* GTSDKYXServiceImpl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTSDKYXServiceImpl.m; path = GTSDKManager/YixinPlatform/GTSDKYXServiceImpl.m; sourceTree = "<group>"; };
+		F65C89E9EB2DD61B8CA6C1C82177986F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F79735F4FE5DB40134737ECBB45193F0 /* WBSDKBasicButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WBSDKBasicButton.h; sourceTree = "<group>"; };
+		F8278095F195E3CF6BCB3C548EA90620 /* NSString+GTSDKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+GTSDKAdditions.m"; sourceTree = "<group>"; };
+		FCDEA6F3D80DBFF3D31A49E0AB9019B2 /* TencentOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentOAuth.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */,
+				B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */,
+				841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */,
+				7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E0E999E155DAC2FF2829919EA2F76BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63FA63A72BD43D68564F15E222E962CD /* CoreTelephony.framework in Frameworks */,
+				38511FA5AC67699B917C66BA55ECEEA5 /* CoreText.framework in Frameworks */,
+				4C41D6351334744322A27F18E81D339B /* Foundation.framework in Frameworks */,
+				70CCD7BC35823BEA2042FD2BAD8985E0 /* ImageIO.framework in Frameworks */,
+				F4BEF8F01FE6B2B958627D3647446387 /* MobileCoreServices.framework in Frameworks */,
+				37012C4E2AB52191218F099F7CF43179 /* QuartzCore.framework in Frameworks */,
+				5563155485E5C6A0FBA3E17C21308521 /* Security.framework in Frameworks */,
+				CD36B2A263445BE6A77A62FB9C718289 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F50352972BBCBE09E277992456BEF04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F28667F6ECD885D11E97BC7847EB8C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFEF02315EEB27609C78C86EAE48FC6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE504FBAAB1FC5118C0DBB2756E29425 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08E66AE0E49884A6BEBF4B2854F58778 /* GTQQSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F3DA5392C527151FA48381A9DF8D4370 /* TencentOpenAPI.framework */,
+			);
+			name = GTQQSDK;
+			path = GTSDKManager/QQPlatform/GTQQSDK;
+			sourceTree = "<group>";
+		};
+		0980AA689763A35192511DDB7CF94C93 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A87AD10C9290D6BB583D6D265861F967 /* WeiboSDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0E0F14BEC52003F6EBC9242DEBDB9A7E /* A */ = {
+			isa = PBXGroup;
+			children = (
+				DAA351D037BC3F6B363F995F9D3C49A3 /* Headers */,
+			);
+			name = A;
+			path = A;
+			sourceTree = "<group>";
+		};
+		1114F4B7391451B8EE6D432784ED23B9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D97ABF8510F99ED150C7EDDA51CC582C /* AlipaySDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				F35791481CAFDD8E7715AE1B44687328 /* Core */,
+				3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */,
+				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		249052A456399D819AA5704EE2CA51B9 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				1CF6A4EA88E3FE2C1AE740DF0BF3DD8D /* AlipaySDK.h */,
+				EBE066683D4DAA5257FFCEF98EEB0010 /* APayAuthInfo.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		2B1BF3CCE411EE599A05B49512597764 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A1F700093CD88F1DC6B8ACD0BD4C067 /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CF454B715A67C62CC0CE1717E08A7FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6430046F61225264EC259CE020972E5A /* libWeiboSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */,
+				7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */,
+				4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */,
+				EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */,
+				A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */,
+				67E276593855381568F725E69496F29C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		42119FBE490D8A7E9491D7E53A21B748 /* DTShareKit.framework */ = {
+			isa = PBXGroup;
+			children = (
+				5D8D544DFD6BA7CB1736C7511C2ECC78 /* Versions */,
+			);
+			name = DTShareKit.framework;
+			path = DTShareKit.framework;
+			sourceTree = "<group>";
+		};
+		485F8C8A0EA0A13C9404EEB545E1BE7A /* AlipaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				4FC7642F5105582A976548D178DCCEDA /* AlipaySDK.framework */,
+			);
+			name = AlipaySDK;
+			path = GTSDKManager/AlipayPlatform/AlipaySDK;
+			sourceTree = "<group>";
+		};
+		4F68E4B6F8170672FBC9CDFE1393C386 /* SDKService */ = {
+			isa = PBXGroup;
+			children = (
+				9EB9F928832D2AF3EE8FE47CF1CE8A46 /* NSDictionary+GTSDKAdditions.h */,
+				901272300B0114D2B5589653BCC355C7 /* NSDictionary+GTSDKAdditions.m */,
+				97F57A8BF9E5D75B6D027E4E7C3CE7C9 /* NSString+GTSDKAdditions.h */,
+				F8278095F195E3CF6BCB3C548EA90620 /* NSString+GTSDKAdditions.m */,
+				C359A0817D92D5BE566C5184407E7D03 /* UIImage+GTSDKShare.h */,
+				29C794D588FE141DE28DB70DEC736A0B /* UIImage+GTSDKShare.m */,
+			);
+			name = SDKService;
+			path = GTSDKManager/CoreService/SDKService;
+			sourceTree = "<group>";
+		};
+		4FC7642F5105582A976548D178DCCEDA /* AlipaySDK.framework */ = {
+			isa = PBXGroup;
+			children = (
+				249052A456399D819AA5704EE2CA51B9 /* Headers */,
+			);
+			name = AlipaySDK.framework;
+			path = AlipaySDK.framework;
+			sourceTree = "<group>";
+		};
+		53A8CC8738F1E2D0482456FADADC2BA1 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				2436F52B15CB71054F4897BEFF9AB95B /* QQApi.h */,
+				AC9E3CA807C3D99251A766A4AE45208E /* QQApiInterface.h */,
+				0A768CE1289E620E1BC79062094158BC /* QQApiInterfaceObject.h */,
+				5B33E5137324FEF5125B2F081D7A6434 /* sdkdef.h */,
+				DD74661FE1A788C265FDAC3AFD142F3C /* TencentApiInterface.h */,
+				E122DD4876ED920318FC3996104E2FBF /* TencentMessageObject.h */,
+				FCDEA6F3D80DBFF3D31A49E0AB9019B2 /* TencentOAuth.h */,
+				03686D8C20B9E02D0426E0A76333F6EC /* TencentOAuthObject.h */,
+				8AF84609B7319C3DFFED4B9AF42A7722 /* WeiBoAPI.h */,
+				8308B0CDF0BA1FFEC8247D164233E2DE /* WeiyunAPI.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		53C3932C2453EF5BF64EBC0CBA21DFAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				679EFED97BD698C008462505115AC42C /* TencentOpenAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5925DB4EF0A519936EC5B1E24F9028CC /* SDKServiceInterface */ = {
+			isa = PBXGroup;
+			children = (
+				35315C59B3E23DCACD00886B149E9E16 /* GTSDKAuthService.h */,
+				4E54EE10924F5270B2E619CD5B26A3C5 /* GTSDKPayService.h */,
+				2A768A5B38DFED19B4CBE69AB747E964 /* GTSDKRegisterService.h */,
+				206822F9109D209D340F57A27FE91D23 /* GTSDKShareService.h */,
+			);
+			name = SDKServiceInterface;
+			path = GTSDKManager/CoreService/SDKServiceInterface;
+			sourceTree = "<group>";
+		};
+		5D8D544DFD6BA7CB1736C7511C2ECC78 /* Versions */ = {
+			isa = PBXGroup;
+			children = (
+				0E0F14BEC52003F6EBC9242DEBDB9A7E /* A */,
+			);
+			name = Versions;
+			path = Versions;
+			sourceTree = "<group>";
+		};
+		66D61CC88192F282763CF71C6E0CA536 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEE40941521478C95700AB50B758C2AB /* Pods-GTSDKManager_Example */,
+				A258016E55F04327BC83FBD6DCC63581 /* Pods-GTSDKManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6FC054D5C81E8F997998BA02C39B97F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B290FE658799310EEA42BFE55F2867E6 /* libYixinSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7141C9D79252CAEDB0ED174B3432478D /* CoreService */ = {
+			isa = PBXGroup;
+			children = (
+				941A06FD37693B0B24C7BB9C33DBBA0A /* GTSDKManager.h */,
+				35A2A390B656C3D1F67D81E150D82B25 /* GTSDKManager.m */,
+				835B8A312CFA04D5ACD0165734B4B4C0 /* Resources */,
+				4F68E4B6F8170672FBC9CDFE1393C386 /* SDKService */,
+				5925DB4EF0A519936EC5B1E24F9028CC /* SDKServiceInterface */,
+			);
+			name = CoreService;
+			sourceTree = "<group>";
+		};
+		7398807121A754BF933A997F67459826 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06069614D50AB28E8B05877E87BB4E1E /* DTShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BD569F3813C24D1A49001940EA52D34 /* WechatPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				38BA90A9F711BA7D2C6256E305B48601 /* GTSDKWXServiceImpl.h */,
+				BC102EF3E940FFC90910502F83E370DA /* GTSDKWXServiceImpl.m */,
+				2B1BF3CCE411EE599A05B49512597764 /* Frameworks */,
+				C697DF6FCF27037ED387609AC986F4F9 /* WeChatSDK */,
+			);
+			name = WechatPlatform;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E305EE839E08E88C1962C8CDE68A9C44 /* Development Pods */,
+				876F80F8AFD1240ED0B7B9EA9C5BFAD8 /* Frameworks */,
+				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
+				EA8F56655BDF9165A6B22B39EC622B3F /* Products */,
+				66D61CC88192F282763CF71C6E0CA536 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		824A28D070F7B9BC538B3C42B4FF6212 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A4FF1012175B3ADAC0A3FE1BA8D84B07 /* CoreTelephony.framework */,
+				27ECC7448E1D630CEE7F0BEC8B9DE8C4 /* CoreText.framework */,
+				A536C88B613266C38012730B599FE2AA /* Foundation.framework */,
+				BF4665E9885CB6641BA287CCE1E4780C /* ImageIO.framework */,
+				18BBE368F9E16ABBDEF11F38BB95901A /* MobileCoreServices.framework */,
+				62C2C02408412503745518BAAA4C78EE /* QuartzCore.framework */,
+				E6E5E6513344277D41B66CAB73AECFD0 /* Security.framework */,
+				DB16DBC6879F1BF81244C9A8FD786F4A /* SystemConfiguration.framework */,
+				F65C89E9EB2DD61B8CA6C1C82177986F /* UIKit.framework */,
+				1F6F9741EBB4CAC3FC7B75B08F7E2B0D /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		835B8A312CFA04D5ACD0165734B4B4C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				12319EDA33E38B2EA7CD2E9E568D8AB8 /* SDKServiceConfig.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		852F64499BF10079464FC3F3085A2F7F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C2FC9443A400630DDD9B069B5775FB1C /* TencentOpenApi_IOS_Bundle.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		876F80F8AFD1240ED0B7B9EA9C5BFAD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				824A28D070F7B9BC538B3C42B4FF6212 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A564330BB6401224928C370AD92A75B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				927159BAB2A9EEFE7D58FD6A5AC7A8B1 /* AlipaySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		934AF95C64CB8FC192384B7888B3012A /* libWeiboSDK */ = {
+			isa = PBXGroup;
+			children = (
+				44D2EC6A50DB518A10E4391C6D5B43E7 /* WBHttpRequest.h */,
+				95194622E85D92BBA5BD78D07FEA51AA /* WBHttpRequest+WeiboGame.h */,
+				8A6D660A2AF7647EDE721971E3C8B1E4 /* WBHttpRequest+WeiboShare.h */,
+				9776B15003C03D4E5F9FD99DAB9A95FB /* WBHttpRequest+WeiboToken.h */,
+				C27F7504D091CBC99BAEBF830A08A0D4 /* WBHttpRequest+WeiboUser.h */,
+				F79735F4FE5DB40134737ECBB45193F0 /* WBSDKBasicButton.h */,
+				D5792F45F5702026F7BD6610CBA683B1 /* WBSDKCommentButton.h */,
+				7934D7F0D568BE7860C211D2E26B38B9 /* WBSDKRelationshipButton.h */,
+				A301290CF60853425674EA1A4AC12B75 /* WeiboSDK.h */,
+				08CA3E97E661246AF01E0963D8F361CB /* WeiboUser.h */,
+			);
+			name = libWeiboSDK;
+			path = GTSDKManager/WeiboPlatform/libWeiboSDK;
+			sourceTree = "<group>";
+		};
+		95538C00C4391EACD7E871E503B196BD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5759E052055E3F624A3E35DB96C0CD12 /* GTSDKManager.podspec */,
+				BDAAB65BECD2D8ED570A2ED3DFB75DB3 /* LICENSE */,
+				624901B9EDF3F5A1596D146EB90EF62F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		977CE9E8091093817CBAC54B4C102947 /* DingTalkPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				1930A10B436D0EBFFA8E4E8FED35F7B0 /* GTSDKDingTalkServiceImpl.h */,
+				31BB8A74664439152DD823F73DC01C06 /* GTSDKDingTalkServiceImpl.m */,
+				A47C508D28C36F36424DE7C34F5753CF /* DingTalkSDK */,
+				7398807121A754BF933A997F67459826 /* Frameworks */,
+			);
+			name = DingTalkPlatform;
+			sourceTree = "<group>";
+		};
+		9964170D913625418170D70570A8D094 /* GTSDKManager */ = {
+			isa = PBXGroup;
+			children = (
+				F6701360CB2BF4900956F2354E45E6E4 /* AlipayPlatform */,
+				7141C9D79252CAEDB0ED174B3432478D /* CoreService */,
+				977CE9E8091093817CBAC54B4C102947 /* DingTalkPlatform */,
+				95538C00C4391EACD7E871E503B196BD /* Pod */,
+				F207E7AE455B8710EBC390D4639EF130 /* QQPlatform */,
+				EA85F9031BBEF2A583F96FB320E7E4F0 /* Support Files */,
+				7BD569F3813C24D1A49001940EA52D34 /* WechatPlatform */,
+				B83E43D30105560E824DCB84F8D22171 /* WeiboPlatform */,
+				A33B91E204A7E72167BFC258A0749553 /* YixinPlatform */,
+			);
+			name = GTSDKManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		A258016E55F04327BC83FBD6DCC63581 /* Pods-GTSDKManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BF0FCDEAC3DD2AF2DDD60608D25E2FE5 /* Info.plist */,
+				0E128C8FDC26E47583CC8C318AD94C42 /* Pods-GTSDKManager_Tests.modulemap */,
+				CFC4AC0A50787DC5E9B364E56C4BCE6F /* Pods-GTSDKManager_Tests-acknowledgements.markdown */,
+				CA3E0D3E536B6D43E1D1446C9B660906 /* Pods-GTSDKManager_Tests-acknowledgements.plist */,
+				B14C5F6677A0F606D922BBDD50197AF3 /* Pods-GTSDKManager_Tests-dummy.m */,
+				8BA7B7CAF3AF0C38E60EA52BEBF0528E /* Pods-GTSDKManager_Tests-frameworks.sh */,
+				393A44FDEEAD4DE5159DD183CD9397DE /* Pods-GTSDKManager_Tests-resources.sh */,
+				6A346429B8EC39831F82497C1D16FE0F /* Pods-GTSDKManager_Tests-umbrella.h */,
+				4F6E3401F581CF4AFCC65305A4822CAB /* Pods-GTSDKManager_Tests.debug.xcconfig */,
+				387114D2BB8809F7A11D190042D0223A /* Pods-GTSDKManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-GTSDKManager_Tests";
+			path = "Target Support Files/Pods-GTSDKManager_Tests";
+			sourceTree = "<group>";
+		};
+		A33B91E204A7E72167BFC258A0749553 /* YixinPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				0BA455B92895DA50FF5D5C4E53B64CAB /* GTSDKYXServiceImpl.h */,
+				F2C46B41BFA765B4F99A97600A5DEA21 /* GTSDKYXServiceImpl.m */,
+				6FC054D5C81E8F997998BA02C39B97F5 /* Frameworks */,
+				F8A5B2BDAAD1546AD21037B33897C167 /* YiXinSDK */,
+			);
+			name = YixinPlatform;
+			sourceTree = "<group>";
+		};
+		A47C508D28C36F36424DE7C34F5753CF /* DingTalkSDK */ = {
+			isa = PBXGroup;
+			children = (
+				42119FBE490D8A7E9491D7E53A21B748 /* DTShareKit.framework */,
+			);
+			name = DingTalkSDK;
+			path = GTSDKManager/DingTalkPlatform/DingTalkSDK;
+			sourceTree = "<group>";
+		};
+		AEE40941521478C95700AB50B758C2AB /* Pods-GTSDKManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				502061B40CBB3D825885ACF0CEAD3B6B /* Info.plist */,
+				E08C0203CC0D6685B8DB20217A8CEFED /* Pods-GTSDKManager_Example.modulemap */,
+				12F2E47A1DA8CB7E65C6A31DA5106A78 /* Pods-GTSDKManager_Example-acknowledgements.markdown */,
+				9B93248C76C809C748806970634764FF /* Pods-GTSDKManager_Example-acknowledgements.plist */,
+				2D7059EA1BFC65A496D22E791858F267 /* Pods-GTSDKManager_Example-dummy.m */,
+				9CF3E572E0B3E15026817D26A3063C2D /* Pods-GTSDKManager_Example-frameworks.sh */,
+				E6C709A63535352A521D09844475DB2A /* Pods-GTSDKManager_Example-resources.sh */,
+				7354F4844C61F703DACC7E55D98AB865 /* Pods-GTSDKManager_Example-umbrella.h */,
+				83F73BA2C3BE65136DAB18C6CF33A5B7 /* Pods-GTSDKManager_Example.debug.xcconfig */,
+				E92D40F214782C0EF38E2B500ED98911 /* Pods-GTSDKManager_Example.release.xcconfig */,
+			);
+			name = "Pods-GTSDKManager_Example";
+			path = "Target Support Files/Pods-GTSDKManager_Example";
+			sourceTree = "<group>";
+		};
+		B83E43D30105560E824DCB84F8D22171 /* WeiboPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				891727B141FBFEFB66F646126ED930BB /* GTSDKWeiboServiceImpl.h */,
+				B51F5C5682C5C6B488F93DE2BF0727E1 /* GTSDKWeiboServiceImpl.m */,
+				2CF454B715A67C62CC0CE1717E08A7FD /* Frameworks */,
+				934AF95C64CB8FC192384B7888B3012A /* libWeiboSDK */,
+				0980AA689763A35192511DDB7CF94C93 /* Resources */,
+			);
+			name = WeiboPlatform;
+			sourceTree = "<group>";
+		};
+		C697DF6FCF27037ED387609AC986F4F9 /* WeChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A6673486161DEFF453893B4805F12CDA /* WXApi.h */,
+				E8CC0491A2B4ACFB5ECF57F2C2FCCE54 /* WXApiObject.h */,
+			);
+			name = WeChatSDK;
+			path = GTSDKManager/WechatPlatform/WeChatSDK;
+			sourceTree = "<group>";
+		};
+		DAA351D037BC3F6B363F995F9D3C49A3 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				EF0F7111DFE9DFACE1F5E65D32AC5E2F /* DTOpenAPI.h */,
+				512B20AAFA17710AE9D2B3CA21381861 /* DTOpenAPIObject.h */,
+				CB57CE7B3363409CA3C4AA1FFCBDF15C /* DTOpenKit.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		E305EE839E08E88C1962C8CDE68A9C44 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9964170D913625418170D70570A8D094 /* GTSDKManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EA85F9031BBEF2A583F96FB320E7E4F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C9950E14670E2B45FAFCB3AEA6DE1A0 /* GTSDKManager.modulemap */,
+				13B0F742CBB9533D8D0699401E554F8A /* GTSDKManager.xcconfig */,
+				A979135B1C77BB6B4F55E82C8335D9EC /* GTSDKManager-dummy.m */,
+				EDC1C6F613DF0B76596CF0EE6582C0E0 /* GTSDKManager-prefix.pch */,
+				78D5C15C530AA765C89B0D6167A78CC5 /* GTSDKManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GTSDKManager";
+			sourceTree = "<group>";
+		};
+		EA8F56655BDF9165A6B22B39EC622B3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D958EF0E66C73996F5019E5FD99DD71 /* FBSnapshotTestCase.framework */,
+				28EBDD5F6FD462A47D554FA6B0501252 /* GTSDKManager.framework */,
+				847B685AC3E5A699382A1F5584D33570 /* Pods_GTSDKManager_Example.framework */,
+				80FFF0EC0735BFC7FCF2A97CD717FBCE /* Pods_GTSDKManager_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F207E7AE455B8710EBC390D4639EF130 /* QQPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				2972262B382B7C1A45BEDAD320A7A61C /* GTSDKQQServiceImpl.h */,
+				147DBE51C64C3B63640D2D71FE1CC5A3 /* GTSDKQQServiceImpl.m */,
+				53C3932C2453EF5BF64EBC0CBA21DFAD /* Frameworks */,
+				08E66AE0E49884A6BEBF4B2854F58778 /* GTQQSDK */,
+				852F64499BF10079464FC3F3085A2F7F /* Resources */,
+			);
+			name = QQPlatform;
+			sourceTree = "<group>";
+		};
+		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */,
+				39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */,
+				7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */,
+				58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */,
+				1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */,
+				052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */,
+				B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */,
+				2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */,
+				432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */,
+				3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */,
+				85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */,
+				B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */,
+				0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */,
+				3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		F3DA5392C527151FA48381A9DF8D4370 /* TencentOpenAPI.framework */ = {
+			isa = PBXGroup;
+			children = (
+				53A8CC8738F1E2D0482456FADADC2BA1 /* Headers */,
+			);
+			name = TencentOpenAPI.framework;
+			path = TencentOpenAPI.framework;
+			sourceTree = "<group>";
+		};
+		F6701360CB2BF4900956F2354E45E6E4 /* AlipayPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				C85B03F575CF5AC142FD74998E33D4DD /* GTSDKAliPayServiceImpl.h */,
+				1558C0DD8FF81C421772E79381BCAC19 /* GTSDKAliPayServiceImpl.m */,
+				485F8C8A0EA0A13C9404EEB545E1BE7A /* AlipaySDK */,
+				8A564330BB6401224928C370AD92A75B /* Frameworks */,
+				1114F4B7391451B8EE6D432784ED23B9 /* Resources */,
+			);
+			name = AlipayPlatform;
+			sourceTree = "<group>";
+		};
+		F8A5B2BDAAD1546AD21037B33897C167 /* YiXinSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A7158B401FC65E021BB1B8DCD5FF4B24 /* YXApi.h */,
+				638F3AB111D25F440074A00A81F40DE1 /* YXApiObject.h */,
+			);
+			name = YiXinSDK;
+			path = GTSDKManager/YixinPlatform/YiXinSDK;
+			sourceTree = "<group>";
+		};
+		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		230BA98A4C0C552F1D6B40A6D147AF9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593EA47417B52D6465E58BA5CD542ED5 /* Pods-GTSDKManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AED50480F72AE01539AF3B5B7393C03 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7118CA14BBDD9EC220995EEFD98E0CA /* Pods-GTSDKManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC6F5AC11E37A1EB45C6473C9E800B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */,
+				BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */,
+				2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */,
+				BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */,
+				CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */,
+				051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */,
+				421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A7C75CC39674B10D99388463503244 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A94C3CB0E769CC88B1AA64A5D89EFCA /* AlipaySDK.h in Headers */,
+				C228370A76E936DA35521B0322A49A28 /* APayAuthInfo.h in Headers */,
+				F98C77D3A5C74774A6030DBA5670AB71 /* DTOpenAPI.h in Headers */,
+				2799F5305C3DB118E4CD3C5AA045A9C2 /* DTOpenAPIObject.h in Headers */,
+				2A0E2BDA7CDE054B7503C3E7B1A033F3 /* DTOpenKit.h in Headers */,
+				4571F1459EA137596B018401FF27D001 /* GTSDKAliPayServiceImpl.h in Headers */,
+				CF557ECEDAAB6D9F42951915DC47979A /* GTSDKAuthService.h in Headers */,
+				74CFDA8471E3DF6828A7A10763EF0954 /* GTSDKDingTalkServiceImpl.h in Headers */,
+				C0C6BA54FDE71359FFA57828888374DA /* GTSDKManager-umbrella.h in Headers */,
+				1A14BA32765ABD7F9F404EA706169A3B /* GTSDKManager.h in Headers */,
+				984F1CC496B7A5FE54FDB9A93428C982 /* GTSDKPayService.h in Headers */,
+				C5AD5B833E415D635C2FA9DBA0DD52F6 /* GTSDKQQServiceImpl.h in Headers */,
+				B98A6284837DF2757037B07881BA1D87 /* GTSDKRegisterService.h in Headers */,
+				93C02BDA5ED10E7F97A9D42EA942F251 /* GTSDKShareService.h in Headers */,
+				BCB6093C69BCA7F37180DE8DB9C6BBB3 /* GTSDKWeiboServiceImpl.h in Headers */,
+				82E51DA987790E8670489EAE62A9FEF0 /* GTSDKWXServiceImpl.h in Headers */,
+				A4A55CF85C58B60726C29FF53E260A37 /* GTSDKYXServiceImpl.h in Headers */,
+				7536F585626E3D661077AA19729F6F5F /* NSDictionary+GTSDKAdditions.h in Headers */,
+				701680A4B0BEC7F795D4E77A4BD2E12D /* NSString+GTSDKAdditions.h in Headers */,
+				B8616545E6A23C7256FBD4A844BE88D3 /* QQApi.h in Headers */,
+				DD1EEA200EB35540350EB64DA2B33659 /* QQApiInterface.h in Headers */,
+				D507906BD7E0DC88431B41DAC5B6BD45 /* QQApiInterfaceObject.h in Headers */,
+				0BA1AB22C052887DE60295A92C1B0740 /* sdkdef.h in Headers */,
+				FF8C9ACB67F65E6FEDFF6CDA68C35E0B /* TencentApiInterface.h in Headers */,
+				10B48BD276C7B0F37C58A9CFAEE6A375 /* TencentMessageObject.h in Headers */,
+				6A78631148A37442058B683BB2AAB5A4 /* TencentOAuth.h in Headers */,
+				252EAB4EB2872E80FDC578C3F0FEE4AA /* TencentOAuthObject.h in Headers */,
+				B21BF23C5D3B5CE3D6A2E32D7572F4D8 /* UIImage+GTSDKShare.h in Headers */,
+				95569CE31D68D2783CA1A9EDEFFFFCF7 /* WBHttpRequest+WeiboGame.h in Headers */,
+				39CB1EA278A2E885EA24137735F2B275 /* WBHttpRequest+WeiboShare.h in Headers */,
+				3E4CAD960725CBDEEB060B3E7312F3EB /* WBHttpRequest+WeiboToken.h in Headers */,
+				B134F586CC99A33181F937CFC29143DA /* WBHttpRequest+WeiboUser.h in Headers */,
+				3ACE54FD524D48BE93B46CCDF14E2100 /* WBHttpRequest.h in Headers */,
+				E0CD81D8B94A0D9D282DC5F46EF5EA8D /* WBSDKBasicButton.h in Headers */,
+				2C5D6FD3657638FC33E31C4EECA7A80E /* WBSDKCommentButton.h in Headers */,
+				1DB2E15E467ABFF39D25F6C79E2E012D /* WBSDKRelationshipButton.h in Headers */,
+				F6E2FD6280AD436CB7CF69F0B02BDC72 /* WeiBoAPI.h in Headers */,
+				C1F8684ACD9181B2350A2BAE1A4CBF75 /* WeiboSDK.h in Headers */,
+				1AD85A9C2A342697B0857A88ED379C59 /* WeiboUser.h in Headers */,
+				ACF1D88F799D09D958FA1A948DAC56EA /* WeiyunAPI.h in Headers */,
+				A337A6FE51D29D13EC603FADCFCB4C7C /* WXApi.h in Headers */,
+				A5DCC40ED7DCFCAF8A2933FBEF822E3B /* WXApiObject.h in Headers */,
+				E166B85A576EF1CEF9D2B0F534C0F046 /* YXApi.h in Headers */,
+				4B28EAB24D58875F051E5FB9707E01AF /* YXApiObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				E2E80CCD063D04B57A1A5E140726E8A4 /* Sources */,
+				1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */,
+				9DC6F5AC11E37A1EB45C6473C9E800B6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 3D958EF0E66C73996F5019E5FD99DD71 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		71588E6A96F6EC73A0313A58E5829BAF /* Pods-GTSDKManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13EB1B326F79D70D15BF0F270EE9E248 /* Build configuration list for PBXNativeTarget "Pods-GTSDKManager_Example" */;
+			buildPhases = (
+				CC722B3AD457F3BEDBEDEF0CC2E3BCE1 /* Sources */,
+				8F50352972BBCBE09E277992456BEF04 /* Frameworks */,
+				230BA98A4C0C552F1D6B40A6D147AF9B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C095174BF9A4C52109CAEE6F132E76CA /* PBXTargetDependency */,
+			);
+			name = "Pods-GTSDKManager_Example";
+			productName = "Pods-GTSDKManager_Example";
+			productReference = 847B685AC3E5A699382A1F5584D33570 /* Pods_GTSDKManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8EF8B13D913CB87ACCE1E1D0BDF8000E /* GTSDKManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A4F3ABCCB05DD38B757B68AA26DF27B /* Build configuration list for PBXNativeTarget "GTSDKManager" */;
+			buildPhases = (
+				64967DB2D05D1C1BAC9DB9181DC7E6ED /* Sources */,
+				3E0E999E155DAC2FF2829919EA2F76BB /* Frameworks */,
+				C7A7C75CC39674B10D99388463503244 /* Headers */,
+				EF6A8F3A8CC9C447803225B03496E145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTSDKManager;
+			productName = GTSDKManager;
+			productReference = 28EBDD5F6FD462A47D554FA6B0501252 /* GTSDKManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DE6BF293BBC0860BF2F05CA78C2E76F7 /* Pods-GTSDKManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F3C55D486F4F96A0415DC6BDA1923C0 /* Build configuration list for PBXNativeTarget "Pods-GTSDKManager_Tests" */;
+			buildPhases = (
+				BCA4D67F80BDE9079B45B42249205712 /* Sources */,
+				DFEF02315EEB27609C78C86EAE48FC6A /* Frameworks */,
+				7AED50480F72AE01539AF3B5B7393C03 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96480091F736609EDB75673F47B28201 /* PBXTargetDependency */,
+				23F63451D62712652BDCD9C9036F040B /* PBXTargetDependency */,
+			);
+			name = "Pods-GTSDKManager_Tests";
+			productName = "Pods-GTSDKManager_Tests";
+			productReference = 80FFF0EC0735BFC7FCF2A97CD717FBCE /* Pods_GTSDKManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EA8F56655BDF9165A6B22B39EC622B3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
+				8EF8B13D913CB87ACCE1E1D0BDF8000E /* GTSDKManager */,
+				71588E6A96F6EC73A0313A58E5829BAF /* Pods-GTSDKManager_Example */,
+				DE6BF293BBC0860BF2F05CA78C2E76F7 /* Pods-GTSDKManager_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF6A8F3A8CC9C447803225B03496E145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB59B97FA2B7CAE35F120E54CAE21457 /* AlipaySDK.bundle in Resources */,
+				8AA77BB76C41BC1B58DA3D90D1E8748B /* SDKServiceConfig.plist in Resources */,
+				C0286D6F080E7959073596BE78BC3E63 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				40EBA3A64947BEA56558EF5110EF9DF5 /* WeiboSDK.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64967DB2D05D1C1BAC9DB9181DC7E6ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E2C9F78974ACB39ACF54E2F178A844 /* GTSDKAliPayServiceImpl.m in Sources */,
+				E51653C91796E56A14EA5DF40B688735 /* GTSDKDingTalkServiceImpl.m in Sources */,
+				ACB2F5CE9645430A21E3CB159F059A5E /* GTSDKManager-dummy.m in Sources */,
+				5CF46637A9C2458F5E3CDCA63B7CAAF0 /* GTSDKManager.m in Sources */,
+				94B56C1BFE56FBDD01FFA5547D47C187 /* GTSDKQQServiceImpl.m in Sources */,
+				AD503618923D78848A7FDDAB5421CA6D /* GTSDKWeiboServiceImpl.m in Sources */,
+				8F343E802369C8188DDCE6221BDB0F30 /* GTSDKWXServiceImpl.m in Sources */,
+				7D770EF339FD9471FEECD9EA82E5C8D6 /* GTSDKYXServiceImpl.m in Sources */,
+				2C00A49C9ECD735F5BB9D0EB6FB035C5 /* NSDictionary+GTSDKAdditions.m in Sources */,
+				3FD6D326F900BB7E7272F544250C50D5 /* NSString+GTSDKAdditions.m in Sources */,
+				04C0CE7FD4365602459FAF07305EA983 /* UIImage+GTSDKShare.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA4D67F80BDE9079B45B42249205712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810609E95C0A6295C25474B7C57C638A /* Pods-GTSDKManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC722B3AD457F3BEDBEDEF0CC2E3BCE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B175A67AE8CA1B3E0B11748B3F36EC3D /* Pods-GTSDKManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2E80CCD063D04B57A1A5E140726E8A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */,
+				BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */,
+				DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */,
+				A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */,
+				1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */,
+				094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */,
+				69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */,
+				35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */,
+				756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23F63451D62712652BDCD9C9036F040B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GTSDKManager_Example";
+			target = 71588E6A96F6EC73A0313A58E5829BAF /* Pods-GTSDKManager_Example */;
+			targetProxy = 15AB3B4839C915E5732F672C367105D6 /* PBXContainerItemProxy */;
+		};
+		96480091F736609EDB75673F47B28201 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */;
+			targetProxy = DE128149002750B1C5FC72B45FA23068 /* PBXContainerItemProxy */;
+		};
+		C095174BF9A4C52109CAEE6F132E76CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTSDKManager;
+			target = 8EF8B13D913CB87ACCE1E1D0BDF8000E /* GTSDKManager */;
+			targetProxy = EC16901B7B4FEF74FD6ED77236D7EEF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		35ECB4DEFF5DC17AE40154DDB08E249A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13B0F742CBB9533D8D0699401E554F8A /* GTSDKManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTSDKManager/GTSDKManager-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/GTSDKManager/GTSDKManager.modulemap";
+				PRODUCT_MODULE_NAME = GTSDKManager;
+				PRODUCT_NAME = GTSDKManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A38749C15819B02B742737E489EE0EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB74B6A60AA3078D80BB7D633DFBCA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ADC382F877129BF71847700A620E8633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13B0F742CBB9533D8D0699401E554F8A /* GTSDKManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTSDKManager/GTSDKManager-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/GTSDKManager/GTSDKManager.modulemap";
+				PRODUCT_MODULE_NAME = GTSDKManager;
+				PRODUCT_NAME = GTSDKManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B23DFE2D4AC955519467A0218B86D93D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F6E3401F581CF4AFCC65305A4822CAB /* Pods-GTSDKManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTSDKManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTSDKManager_Tests/Pods-GTSDKManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB7DF2545757375288A3751987689483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83F73BA2C3BE65136DAB18C6CF33A5B7 /* Pods-GTSDKManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTSDKManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTSDKManager_Example/Pods-GTSDKManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE6A765F6337CDACA96C2D8E94A3BA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E92D40F214782C0EF38E2B500ED98911 /* Pods-GTSDKManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTSDKManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTSDKManager_Example/Pods-GTSDKManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D1C0F3FEC5F9379BCA74C70AAE9C7120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 387114D2BB8809F7A11D190042D0223A /* Pods-GTSDKManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTSDKManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTSDKManager_Tests/Pods-GTSDKManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13EB1B326F79D70D15BF0F270EE9E248 /* Build configuration list for PBXNativeTarget "Pods-GTSDKManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7DF2545757375288A3751987689483 /* Debug */,
+				BE6A765F6337CDACA96C2D8E94A3BA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F3C55D486F4F96A0415DC6BDA1923C0 /* Build configuration list for PBXNativeTarget "Pods-GTSDKManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23DFE2D4AC955519467A0218B86D93D /* Debug */,
+				D1C0F3FEC5F9379BCA74C70AAE9C7120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A4F3ABCCB05DD38B757B68AA26DF27B /* Build configuration list for PBXNativeTarget "GTSDKManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC382F877129BF71847700A620E8633 /* Debug */,
+				35ECB4DEFF5DC17AE40154DDB08E249A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38749C15819B02B742737E489EE0EEB /* Debug */,
+				AB74B6A60AA3078D80BB7D633DFBCA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

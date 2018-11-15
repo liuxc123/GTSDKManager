@@ -1,0 +1,47 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GTSDKManager (0.0.1):
+    - GTSDKManager/AlipayPlatform (= 0.0.1)
+    - GTSDKManager/CoreService (= 0.0.1)
+    - GTSDKManager/DingTalkPlatform (= 0.0.1)
+    - GTSDKManager/QQPlatform (= 0.0.1)
+    - GTSDKManager/WechatPlatform (= 0.0.1)
+    - GTSDKManager/WeiboPlatform (= 0.0.1)
+    - GTSDKManager/YixinPlatform (= 0.0.1)
+  - GTSDKManager/AlipayPlatform (0.0.1):
+    - GTSDKManager/CoreService
+  - GTSDKManager/CoreService (0.0.1)
+  - GTSDKManager/DingTalkPlatform (0.0.1):
+    - GTSDKManager/CoreService
+  - GTSDKManager/QQPlatform (0.0.1):
+    - GTSDKManager/CoreService
+  - GTSDKManager/WechatPlatform (0.0.1):
+    - GTSDKManager/CoreService
+  - GTSDKManager/WeiboPlatform (0.0.1):
+    - GTSDKManager/CoreService
+  - GTSDKManager/YixinPlatform (0.0.1):
+    - GTSDKManager/CoreService
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GTSDKManager (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  GTSDKManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GTSDKManager: 1c4013d69047d92ef63f878dced6df48b8d4c359
+
+PODFILE CHECKSUM: 516ff7db8c1f2c4e710a5e36d0cfd0a6f4ac3693
+
+COCOAPODS: 1.5.0

@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface GTViewController : UIViewController
+@interface GTViewController : UIViewController <UIAlertViewDelegate>
 
 @end

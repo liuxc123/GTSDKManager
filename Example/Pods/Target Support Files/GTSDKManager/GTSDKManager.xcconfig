@@ -1,0 +1,11 @@
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/GTSDKManager
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../GTSDKManager/AlipayPlatform/AlipaySDK" "${PODS_ROOT}/../../GTSDKManager/DingTalkPlatform/DingTalkSDK" "${PODS_ROOT}/../../GTSDKManager/QQPlatform/GTQQSDK"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../GTSDKManager/WechatPlatform/WeChatSDK" "${PODS_ROOT}/../../GTSDKManager/WeiboPlatform/libWeiboSDK" "${PODS_ROOT}/../../GTSDKManager/YixinPlatform/YiXinSDK"
+OTHER_LDFLAGS = -l"WeChatSDK" -l"WeiboSDK" -l"YixinSDK" -l"c++" -l"iconv" -l"sqlite3.0" -l"z" -framework "AlipaySDK" -framework "CoreTelephony" -framework "CoreText" -framework "DTShareKit" -framework "ImageIO" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "TencentOpenAPI"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/../..
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES

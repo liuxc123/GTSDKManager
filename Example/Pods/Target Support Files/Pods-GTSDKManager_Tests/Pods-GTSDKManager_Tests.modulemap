@@ -1,0 +1,6 @@
+framework module Pods_GTSDKManager_Tests {
+  umbrella header "Pods-GTSDKManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -3,6 +3,7 @@ use_frameworks!
 target 'GTSDKManager_Example' do
   pod 'GTSDKManager', :path => '../'
 
+
   target 'GTSDKManager_Tests' do
     inherit! :search_paths
 
