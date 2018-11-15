@@ -72,7 +72,6 @@ Pod::Spec.new do |s|
 
   #钉钉平台SDK集成
   s.subspec 'DingTalkPlatform' do |ss|
-    ss.public_header_files = 'GTSDKManager/DingTalkPlatform/DingTalkSDK/*.h'
     ss.source_files = 'GTSDKManager/DingTalkPlatform/**/*.{h,m,mm}'
     ss.vendored_frameworks = 'GTSDKManager/DingTalkPlatform/DingTalkSDK/DTShareKit.framework'
     ss.dependency 'GTSDKManager/CoreService'
